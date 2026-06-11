@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte Sustentável - João Gabriel Geremias</title>
+<style>
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #2e7d32, #81c784);
+    color: #fff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 100, 0, 0.6);
+    animation: surgir 2s ease;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    margin: 20px;
+}
+
+.banner img {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    animation: flutuar 5s infinite ease-in-out;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Cards */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #fffde7;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "✔ ";
+    color: #ffd700;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #1b5e20;
+    margin-top: 30px;
+}
+
+/* Animações */
+@keyframes flutuar {
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-15px);}
+}
+
+@keyframes surgir {
+    from {opacity:0; transform:translateY(-50px);}
+    to {opacity:1; transform:translateY(0);}
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🌱 Agro Forte Sustentável 🌱</h1>
+    <p>Projeto desenvolvido por João Gabriel Geremias</p>
+</header>
+
+<div class="banner">
+    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200" alt="Agricultura Sustentável">
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>O que é Rotação de Cultura?</h2>
+        <p>
+            A rotação de culturas consiste em alternar diferentes espécies de plantas na mesma área agrícola ao longo das safras. Essa prática ajuda a:
+        </p>
+        <ul>
+            <li>Melhorar a fertilidade do solo;</li>
+            <li>Reduzir a incidência de pragas e doenças;</li>
+            <li>Evitar o esgotamento de nutrientes;</li>
+            <li>Aumentar a produtividade de forma sustentável;</li>
+            <li>Conservar água e biodiversidade do solo.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Benefícios da Agricultura Sustentável</h2>
+        <ul>
+            <li>Produção eficiente com menor impacto ambiental;</li>
+            <li>Preservação de recursos naturais;</li>
+            <li>Redução do uso de produtos químicos;</li>
+            <li>Promoção da biodiversidade;</li>
+            <li>Maior lucratividade a longo prazo para os agricultores.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Exemplo de Rotação de Culturas</h2>
+        <p>Veja um exemplo de planejamento de safras em um hectare:</p>
+        <table>
+            <tr>
+                <th>Safra</th>
+                <th>Cultura</th>
+                <th>Benefício</th>
+            </tr>
+            <tr>
+                <td>1ª</td>
+                <td>Milho 🌽</td>
+                <td>Alta produtividade, cobertura do solo</td>
+            </tr>
+            <tr>
+                <td>2ª</td>
+                <td>Feijão 🫘</td>
+                <td>Fixação de nitrogênio no solo</td>
+            </tr>
+            <tr>
+                <td>3ª</td>
+                <td>Soja 🌱</td>
+                <td>Substituição de nutrientes e diversificação</td>
+            </tr>
+            <tr>
+                <td>4ª</td>
+                <td>Adubação Verde 🌿</td>
+                <td>Recuperação do solo e aumento de matéria orgânica</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>Dicas Práticas para Rotação de Cultura</h2>
+        <ul>
+            <li>Escolher culturas com diferentes necessidades nutricionais;</li>
+            <li>Alternar culturas de ciclo curto e longo;</li>
+            <li>Registrar sempre os ciclos anteriores para planejar futuras safras;</li>
+            <li>Combinar culturas alimentares com adubação verde;</li>
+            <li>Investir em monitoramento do solo e análise periódica.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Agro Forte Sustentável</h2>
+        <p>
+            Produzir mais preservando o meio ambiente é o caminho para uma agricultura moderna e eficiente. Com práticas como rotação de culturas, conservação do solo e uso consciente de recursos, garantimos alimentos saudáveis e sustentabilidade para futuras gerações.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <h3>João Gabriel Geremias</h3>
+    <p>Projeto Agro Forte Sustentável © 2026</p>
+</footer>
+
+</body>
+</html>
